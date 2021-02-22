@@ -52,7 +52,7 @@ int main() {
                 try {
                     person = FetchRecord(userID);
                 }
-                catch (const out_of_range& oor) {
+                catch (const out_of_range &oor) {
                     cout  << endl << "! Error: Invalid UserID." << endl << endl;
                     break;
                 }
